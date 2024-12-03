@@ -108,7 +108,7 @@ resources:
           sudo apt install python3-pip -y
           sudo mkdir /labs
           cd /labs
-          sudo git clone -b Majo https://github.com/MariaAmor8/cronogramas.git
+          sudo git clone https://github.com/MariaAmor8/cronogramas.git
           cd cronogramas
           sudo pip3 install -r requirements.txt
           sudo python3 manage.py makemigrations
